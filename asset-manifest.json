@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spain-house/static/css/main.2ac37949.css",
+    "main.css": "/spain-house/static/css/main.be244f3e.css",
     "main.js": "/spain-house/static/js/main.ae4cbb06.js",
     "static/js/787.1383074c.chunk.js": "/spain-house/static/js/787.1383074c.chunk.js",
     "static/media/view.png": "/spain-house/static/media/view.1bdc9582ecd9843cf86a.png",
@@ -21,12 +21,12 @@
     "static/media/arrow1.svg": "/spain-house/static/media/arrow1.9b627ccc0c86247787e449aff78e4188.svg",
     "static/media/arrow2.svg": "/spain-house/static/media/arrow2.002a68a0ec7a7a402e36a76a5ed6751b.svg",
     "static/media/arrow.svg": "/spain-house/static/media/arrow.37539afa864fa969994bbaffda12ec28.svg",
-    "main.2ac37949.css.map": "/spain-house/static/css/main.2ac37949.css.map",
+    "main.be244f3e.css.map": "/spain-house/static/css/main.be244f3e.css.map",
     "main.ae4cbb06.js.map": "/spain-house/static/js/main.ae4cbb06.js.map",
     "787.1383074c.chunk.js.map": "/spain-house/static/js/787.1383074c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ac37949.css",
+    "static/css/main.be244f3e.css",
     "static/js/main.ae4cbb06.js"
   ]
 }
