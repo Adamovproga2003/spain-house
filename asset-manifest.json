@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/spain-house/static/css/main.2ac37949.css",
+    "main.js": "/spain-house/static/js/main.ae4cbb06.js",
+    "static/js/787.1383074c.chunk.js": "/spain-house/static/js/787.1383074c.chunk.js",
+    "static/media/view.png": "/spain-house/static/media/view.1bdc9582ecd9843cf86a.png",
+    "static/media/card2.png": "/spain-house/static/media/card2.0b7b8908ab76e008b1ce.png",
+    "static/media/mobile-view.png": "/spain-house/static/media/mobile-view.3a72581e1a5fca0403cd.png",
+    "static/media/card1.png": "/spain-house/static/media/card1.267c7caa9acf608f5a13.png",
+    "static/media/about-us.png": "/spain-house/static/media/about-us.8864b8587b5438f9a9c3.png",
+    "static/media/card3.png": "/spain-house/static/media/card3.61d059d5f0f3453106db.png",
+    "static/media/mobileCard3.png": "/spain-house/static/media/mobileCard3.656b36453eafad2e3ca2.png",
+    "static/media/card4.png": "/spain-house/static/media/card4.b4547fb11e290efe911f.png",
+    "static/media/mobileCard4.png": "/spain-house/static/media/mobileCard4.5f1a6c2faa26116935b2.png",
+    "static/media/mobileCard2.png": "/spain-house/static/media/mobileCard2.b1f464f06dda167c1efb.png",
+    "static/media/mobileCard1.png": "/spain-house/static/media/mobileCard1.9ba50a8de4563dc9073f.png",
+    "static/media/logo.svg": "/spain-house/static/media/logo.8b1a9f4824dd8421dcdd8b5d47a944fb.svg",
+    "static/media/doubleArrow.svg": "/spain-house/static/media/doubleArrow.feef6be7b5e191bf25c9d66e436d4486.svg",
+    "static/media/menu.svg": "/spain-house/static/media/menu.63382c807751aa62abc87a9e489a3158.svg",
+    "index.html": "/spain-house/index.html",
+    "static/media/arrow1.svg": "/spain-house/static/media/arrow1.9b627ccc0c86247787e449aff78e4188.svg",
+    "static/media/arrow2.svg": "/spain-house/static/media/arrow2.002a68a0ec7a7a402e36a76a5ed6751b.svg",
+    "static/media/arrow.svg": "/spain-house/static/media/arrow.37539afa864fa969994bbaffda12ec28.svg",
+    "main.2ac37949.css.map": "/spain-house/static/css/main.2ac37949.css.map",
+    "main.ae4cbb06.js.map": "/spain-house/static/js/main.ae4cbb06.js.map",
+    "787.1383074c.chunk.js.map": "/spain-house/static/js/787.1383074c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ac37949.css",
+    "static/js/main.ae4cbb06.js"
+  ]
+}
