@@ -1,0 +1,147 @@
+.recommendHeader {
+	text-align: center;
+	margin-bottom: 27px;
+}
+
+.recommendHeader h1 {
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #808080;
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 24px;
+	line-height: 44px;
+}
+
+.recommendHeader p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	font-family: 'Open Sans';
+	width: 530px;
+	margin: auto;
+}
+
+.gridTile {
+	display: grid;
+	grid-template-areas:
+		'card1 card2 card2'
+		'card1 card2 card2'
+		'card1 card3 card4';
+	grid-template-columns: min(27.2vw, 392px) min(27.2vw, 392px) min(
+			27.2vw,
+			392px
+		);
+	gap: 2vw;
+	padding: 0px 11.8vw 0px 7.15vw;
+	margin-bottom: 65px;
+}
+
+.card1 {
+	grid-area: card1;
+}
+.card2 {
+	grid-area: card2;
+}
+.card3 {
+	grid-area: card3;
+}
+.card4 {
+	grid-area: card4;
+}
+
+.gridTileMobile {
+	display: none;
+	margin-bottom: 60px;
+}
+
+.allCatalog {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 54px;
+}
+
+.allCatalog button {
+	background: #808080;
+	padding: 1vw 3.68vw;
+	font-family: 'Playfair Display SC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.25vw;
+	line-height: 1.94vw;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.allCatalog button:hover {
+	cursor: pointer;
+}
+
+.recommendHeader ~ hr {
+	margin: 0px 11vw 0px 7.16vw;
+}
+
+@media screen and (max-width: 450px) {
+	.recommendHeader p {
+		display: none;
+	}
+	.recommendHeader {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.gridTile {
+		display: none;
+	}
+	.gridTileMobile {
+		display: grid;
+		grid-template-areas:
+			'card1 card2'
+			'card3 card4';
+		padding: 0px 16px;
+		gap: 23px;
+	}
+
+	.recommendHeader ~ hr {
+		display: none;
+	}
+
+	.allCatalog button {
+		background: #808080;
+		padding: 14px 53px;
+		font-family: 'Playfair Display SC';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 28px;
+		text-align: center;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.gridTileMobile {
+		display: grid;
+		justify-content: center;
+		grid-template-areas:
+			'card1'
+			'card2'
+			'card3'
+			'card4';
+		padding: 0px 16px;
+		gap: 23px;
+	}
+
+	.recommendHeader h1 {
+		padding: 0 28px;
+	}
+
+	.recommendHeader p {
+		display: none;
+	}
+}

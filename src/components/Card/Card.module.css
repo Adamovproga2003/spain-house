@@ -1,0 +1,177 @@
+.card p,
+.card h5 {
+	margin: 0;
+}
+
+.card {
+	display: grid;
+	grid-template-rows: 1fr auto;
+	box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+}
+
+.card div:last-child > div p:first-child {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 0.83vw;
+	line-height: 1.94vw;
+	text-align: center;
+	color: #606060;
+	margin-top: 0.625vw;
+}
+
+.card div:last-child > div h5 {
+	font-weight: 700;
+	font-size: 1.25vw;
+	line-height: 1.94vw;
+	text-align: center;
+	color: #606060;
+	margin-bottom: 0.76vw;
+}
+
+.card > div:last-child > div {
+	margin: 10px;
+	border: 1px solid black;
+	height: calc(100% - 20px);
+}
+
+.card div:last-child > div p:nth-child(3) {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 1.285vw;
+	line-height: 1.597vw;
+	text-align: center;
+	margin-bottom: 0.928vw;
+}
+
+.card div:last-child > div > div {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0.2vw;
+}
+
+.card div:last-child > div > div > span:first-child {
+	padding-right: 2.08vw;
+}
+
+.card div:last-child > div p:last-child {
+	margin-bottom: 0.69vw;
+}
+
+.card div:last-child > div p:last-child,
+.card div:last-child > div span {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 1vw !important;
+	line-height: 1.643vw;
+	text-align: center;
+	color: #606060;
+}
+
+.card p svg {
+	height: 0.83vw;
+}
+
+.slider {
+	position: relative;
+	display: grid;
+	align-items: center;
+	width: 100%;
+}
+
+.slider svg {
+	position: absolute;
+	padding: 0.48vw 0.55vw;
+	background-color: #808080;
+}
+
+.slider svg:hover {
+	cursor: pointer;
+}
+
+.slider svg:first-child {
+	left: 1.319vw;
+}
+
+.slider svg:last-child {
+	right: 1.319vw;
+}
+
+@media screen and (max-width: 800px) {
+	.card {
+		display: grid;
+		grid-template-rows: 1fr 250px;
+		box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.3);
+	}
+
+	.card div:last-child > div p:first-child {
+		font-family: 'Open Sans';
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 28px;
+		text-align: center;
+		color: #606060;
+		margin-top: 9px;
+	}
+
+	.card div:last-child > div h5 {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 28px;
+		text-align: center;
+		color: #606060;
+		margin-bottom: 11px;
+	}
+
+	.card div:last-child > div p:nth-child(3) {
+		font-family: 'Open Sans';
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 23px;
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.card div:last-child > div > div {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3px;
+	}
+
+	.card div:last-child > div > div > span:first-child {
+		padding-right: 30px;
+	}
+
+	.card div:last-child > div p:last-child {
+		margin-bottom: 10px;
+	}
+
+	.card div:last-child > div p:last-child,
+	.card div:last-child > div span {
+		font-family: 'Open Sans';
+		font-weight: 400;
+		font-size: 14px !important;
+		line-height: 24px;
+		text-align: center;
+		color: #606060;
+	}
+
+	.card p svg {
+		height: 12px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.card {
+		display: grid;
+		grid-template-rows: 246px auto;
+	}
+
+	.slider svg {
+		display: none;
+	}
+}
