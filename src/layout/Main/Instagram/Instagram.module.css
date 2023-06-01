@@ -1,0 +1,59 @@
+.instagram div:first-child {
+	margin-top: 2.63vw;
+}
+
+.instagram > div:first-child > div {
+	display: flex;
+	justify-content: center;
+}
+
+.instagram > div:first-child h5 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 47px;
+	text-transform: uppercase;
+	color: #808080;
+	margin: 0;
+	text-align: center;
+}
+
+.instagram > div:first-child p {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	margin: 0;
+	margin: 12px 0 36px 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: min(26.18vw, 377px) min(26.18vw, 377px) min(
+			26.18vw,
+			377px
+		);
+	gap: 3.47vw;
+	justify-content: center;
+	margin-bottom: 5vw;
+}
+
+.grid img {
+	max-width: 377px;
+	width: 100%;
+	height: auto;
+}
+
+.instagram div:nth-child(3) {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4.16vw;
+}
+
+@media screen and (max-width: 800px) {
+	.grid {
+		margin-bottom: 61px;
+	}
+}

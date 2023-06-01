@@ -1,0 +1,9 @@
+.hr {
+	margin: 0 8.5vw;
+}
+
+@media screen and (max-width: 800px) {
+	.hr {
+		display: none;
+	}
+}

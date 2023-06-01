@@ -32,8 +32,9 @@
 			27.2vw,
 			392px
 		);
+	justify-content: center;
 	gap: 2vw;
-	padding: 0px 11.8vw 0px 7.15vw;
+	margin: 0 6.5vw;
 	margin-bottom: 65px;
 }
 
@@ -61,34 +62,22 @@
 	margin-bottom: 54px;
 }
 
-.allCatalog button {
-	background: #808080;
-	padding: 1vw 3.68vw;
-	font-family: 'Playfair Display SC';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 1.25vw;
-	line-height: 1.94vw;
-	text-align: center;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	color: #ffffff;
-}
-
-.allCatalog button:hover {
-	cursor: pointer;
-}
-
-.recommendHeader ~ hr {
-	margin: 0px 11vw 0px 7.16vw;
-}
-
 @media screen and (max-width: 450px) {
 	.recommendHeader p {
 		display: none;
 	}
 	.recommendHeader {
 		margin-bottom: 20px;
+	}
+
+	.recommendHeader h1 {
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 325px) {
+	.recommendHeader h1 {
+		font-size: 30px;
 	}
 }
 
@@ -111,7 +100,7 @@
 
 	.allCatalog button {
 		background: #808080;
-		padding: 14px 53px;
+		padding: 14px 0;
 		font-family: 'Playfair Display SC';
 		font-style: normal;
 		font-weight: 700;
@@ -138,7 +127,7 @@
 	}
 
 	.recommendHeader h1 {
-		padding: 0 28px;
+		padding: 0 1.944vw;
 	}
 
 	.recommendHeader p {

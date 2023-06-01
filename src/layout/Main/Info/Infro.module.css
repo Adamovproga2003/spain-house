@@ -1,0 +1,144 @@
+.info {
+	margin-top: 70px;
+	padding: 0 8.5vw;
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto 1fr;
+	gap: 142px;
+	margin-bottom: max(6.04vw, 63px);
+}
+
+.info div:first-child {
+	position: relative;
+	margin-left: 63px;
+}
+
+.info div:first-child img {
+	filter: drop-shadow(9px 9px 12px rgba(0, 0, 0, 0.19));
+}
+
+.info div:first-child:after {
+	content: '';
+	position: absolute;
+	width: 492px;
+	height: 387px;
+	border: 1px solid #808080;
+	top: 55px;
+	left: -63px;
+	transition: all 0.3s linear;
+	z-index: -1;
+}
+
+.info h1 {
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 47px;
+	text-transform: uppercase;
+	color: #808080;
+	margin-bottom: 23px;
+}
+
+.info p:nth-child(2) {
+	text-transform: uppercase;
+	margin-bottom: 28px;
+}
+
+.info p {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	margin: 0;
+	margin-bottom: 34px;
+}
+
+.info div:nth-child(4) {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #808080;
+	margin: 0;
+	margin-bottom: 27px;
+}
+
+@media screen and (max-width: 1000px) {
+	.info div:first-child img {
+		width: 300px;
+		height: 400px;
+	}
+	.info div:first-child:after {
+		width: 400px;
+		height: 300px;
+	}
+
+	.info {
+		gap: 102px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.info div:first-child img {
+		width: 250px;
+		height: 350px;
+	}
+	.info div:first-child:after {
+		width: 350px;
+		height: 250px;
+	}
+
+	.info {
+		gap: 82px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.info div:first-child {
+		width: fit-content;
+		margin: auto;
+	}
+
+	.info div:last-child {
+		text-align: center;
+	}
+
+	.info {
+		grid-template-columns: auto;
+		gap: 52px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.info h1 {
+		display: none;
+	}
+
+	.info {
+		padding: 0;
+		margin-bottom: 63px;
+	}
+	.info div:first-child:after {
+		display: none;
+	}
+
+	.info div:first-child {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		border-top: 1px solid #808080;
+		border-bottom: 1px solid #808080;
+		padding: 24px 0;
+	}
+
+	.info > div:last-child {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0 26px;
+	}
+}

@@ -1,0 +1,79 @@
+.button {
+	background: #808080;
+	padding: 1vw 0;
+	width: 19.58vw;
+	font-family: 'Playfair Display SC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.25vw;
+	line-height: 1.94vw;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #ffffff;
+	border: none;
+}
+
+.outline {
+	padding: 1vw 0;
+	width: 19.58vw;
+	border: 2px solid #808080;
+	font-family: 'Playfair Display SC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+
+	color: #808080;
+	background-color: transparent;
+}
+
+.button:hover,
+.outline:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+	.button {
+		background: #808080;
+		padding: 14px 0;
+		font-family: 'Playfair Display SC';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 17px;
+		line-height: 28px;
+		text-align: center;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		color: #ffffff;
+		width: 282px;
+	}
+
+	.outline {
+		padding: 14px 0;
+		width: 282px;
+		border: 2px solid #808080;
+		font-family: 'Playfair Display SC';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 28px;
+
+		text-align: center;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+
+		color: #808080;
+		background-color: transparent;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.outline {
+		width: 100%;
+	}
+}

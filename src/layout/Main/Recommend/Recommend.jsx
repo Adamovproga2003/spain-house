@@ -10,6 +10,8 @@ import mobileCard1 from './../../../assets/mobileCard1.png'
 import mobileCard2 from './../../../assets/mobileCard2.png'
 import mobileCard3 from './../../../assets/mobileCard3.png'
 import mobileCard4 from './../../../assets/mobileCard4.png'
+import Button from '../../../components/Button/Button'
+import Hr from '../../../components/Hr/Hr'
 
 const Recommend = () => {
 	return (
@@ -35,10 +37,10 @@ const Recommend = () => {
 			</div>
 
 			<div className={styles.allCatalog}>
-				<button>весь каталог</button>
+				<Button>весь каталог</Button>
 			</div>
 
-			<hr />
+			<Hr />
 		</section>
 	)
 }

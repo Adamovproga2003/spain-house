@@ -20,5 +20,6 @@
 		text-align: center;
 		flex-direction: column;
 		height: 600px;
+		padding: 0 32px;
 	}
 }
